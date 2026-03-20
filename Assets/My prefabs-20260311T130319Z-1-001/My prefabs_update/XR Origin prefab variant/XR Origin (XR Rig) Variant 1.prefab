@@ -1729,7 +1729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3303790254605654797, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5360697213774239142, guid: d7bde8364e4209f42a964ac9770b3e5e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -1870,7 +1870,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1254081073145698006, guid: db6628f69e9384d47a1a16613b6e95b8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134889575898277532, guid: db6628f69e9384d47a1a16613b6e95b8, type: 3}
       propertyPath: m_LocalScale.x
@@ -1993,7 +1993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3570081330743746631, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5544604614355075276, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
       propertyPath: m_LocalScale.x
