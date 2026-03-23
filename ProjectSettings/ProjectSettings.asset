@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: vr_tour
+  productName: Da Vinci Informatica - VR Tour
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -146,9 +146,6 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  - {fileID: 4937408885011394004, guid: c3e9e5eb219976e4f9db756370fc6e5c, type: 2}
-  - {fileID: 11400000, guid: e7cc71c1830ccfc4b8e1f080449f8700, type: 2}
-  - {fileID: 1942108131931619471, guid: dea33c3c501f5d244b4a3963bc6c9106, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
