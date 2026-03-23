@@ -4,16 +4,30 @@ using UnityEngine.UI;
 public class ActivateScroll : MonoBehaviour
 {
     public GameObject toChangeComp;
-    private ScrollRect rekt;
+    private Scrollbar rekt;
     
     public void ActivateS()
     {
-        rekt = toChangeComp.GetComponent<ScrollRect>();
-        rekt.vertical = true;
+        Invoke("act", 0.1f);
+        //LayoutRebuilder.MarkLayoutForRebuild(GameObject.Find("Content").GetComponent<RectTransform>());
+        //LayoutRebuilder.ForceRebuildLayoutImmediate(GameObject.Find("Content").GetComponent<RectTransform>());
+        //Invoke("act", 0.1f);
     }
     public void DeactivateS()
     {
-        rekt = toChangeComp.GetComponent<ScrollRect>();
-        rekt.vertical = false;
+        Invoke("de", 0.1f);
+        //LayoutRebuilder.MarkLayoutForRebuild(GameObject.Find("Content").GetComponent<RectTransform>());
+        //LayoutRebuilder.ForceRebuildLayoutImmediate(GameObject.Find("Content").GetComponent<RectTransform>());
+        //Invoke("de", 0.1f);
+    }
+    private void act()
+    {
+        rekt = toChangeComp.GetComponent<Scrollbar>();
+        rekt.value = 1;
+    }
+    private void de()
+    {
+        //rekt = toChangeComp.GetComponent<ScrollRect>();
+        //rekt.vertical = false;
     }
 }

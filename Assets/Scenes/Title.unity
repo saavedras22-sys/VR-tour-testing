@@ -137,6 +137,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenMenuIntoView
   distance: 3.5
+--- !u!114 &65106786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65106779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
 --- !u!1 &129282888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5722235422253180785, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
@@ -359,6 +371,7 @@ GameObject:
   - component: {fileID: 511859052}
   - component: {fileID: 511859057}
   - component: {fileID: 511859058}
+  - component: {fileID: 511859059}
   m_Layer: 5
   m_Name: main
   m_TagString: Untagged
@@ -493,6 +506,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpenMenuIntoView
   distance: 2
+--- !u!114 &511859059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511859051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60cb5c7b33b8a314c94b37ab263e9eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActivateScroll
+  toChangeComp: {fileID: 1645087521}
 --- !u!114 &523681449 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8222473626907205824, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
@@ -784,6 +810,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8667688819698113016, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667688819698113016, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667688819698113016, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667688819698113016, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8978226484359019968, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
       propertyPath: m_text
       value: Vai al tour
@@ -796,6 +838,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 5139778892656993545, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
     - {fileID: 1147558803774362088, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+    - {fileID: 5995404195381334450, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2894846774258012876, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
       insertIndex: -1
@@ -1548,6 +1591,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnInView
   distance: 2
+--- !u!1 &1645087521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9128136517353823039, guid: c13b0fc069dcab4449c2321a62691d58, type: 3}
+  m_PrefabInstance: {fileID: 5689608208800623944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1687090859 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3254218148404682233, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
@@ -2801,6 +2849,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 511859059}
+        m_TargetAssemblyTypeName: ActivateScroll, Assembly-CSharp
+        m_MethodName: ActivateS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2075421740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3375,6 +3435,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7315287866059002287, guid: c13b0fc069dcab4449c2321a62691d58, type: 3}
       insertIndex: -1
       addedObject: {fileID: 65106780}
+    - targetCorrespondingSourceObject: {fileID: 7315287866059002287, guid: c13b0fc069dcab4449c2321a62691d58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 65106786}
   m_SourcePrefab: {fileID: 100100000, guid: c13b0fc069dcab4449c2321a62691d58, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
