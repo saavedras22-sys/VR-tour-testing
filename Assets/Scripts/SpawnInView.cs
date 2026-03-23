@@ -23,7 +23,7 @@ public class SpawnInView : MonoBehaviour
 
         transform.LookAt(camTransform);
         transform.Rotate(0, 180, 0); // LookAt points at the back of the menu*/
-        Invoke("reposition", 5);
+        Invoke("reposition", 1);
     }
     private void reposition()
     {
@@ -43,7 +43,7 @@ public class SpawnInView : MonoBehaviour
     }
 
     void Start()
-    {
+    {/*
         // Get the camera's position and forward direction
         Transform camTransform = Camera.main.transform;
         
@@ -56,7 +56,7 @@ public class SpawnInView : MonoBehaviour
         transform.position = targetPosition;
 
         transform.LookAt(camTransform);
-        transform.Rotate(0, 180, 0); // LookAt points at the back of the menu
+        transform.Rotate(0, 180, 0); // LookAt points at the back of the menu*/
     }
 
     // Update is called once per frame
