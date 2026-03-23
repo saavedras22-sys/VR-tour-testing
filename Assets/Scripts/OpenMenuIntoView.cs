@@ -9,9 +9,15 @@ public class OpenMenuIntoView : MonoBehaviour
     {
         if (menuPresent)
         {
+            lastMenuOpened.transform.LeanScale(Vector3.zero, 0.2f).setEaseInBack();
             Close(lastMenuOpened);
         }
+        
         GameObject menu = menuParent.transform.GetChild (0).gameObject;
+
+        Vector3 originalScale = menu.transform.localScale;
+        menu.transform.localScale = Vector3.zero;
+
         menu.SetActive(true);
         // Get the camera's position and forward direction
         Transform camTransform = Camera.main.transform;
@@ -26,6 +32,8 @@ public class OpenMenuIntoView : MonoBehaviour
 
         menu.transform.LookAt(camTransform);
         menu.transform.Rotate(0, 180, 0); // LookAt points at the back of the menu
+
+        menu.transform.LeanScale(originalScale, 0.2f).setEaseInOutBack();
 
         menuPresent = true;
         lastMenuOpened = menu;
