@@ -7,4 +7,11 @@ public class HideObj : MonoBehaviour
     {
         gameObject.SetActive(!hidden);
     }
+    public void HideBasedOnPrevious()
+    {
+        if(PreviousScene.OldScene != "Title")
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }

@@ -8,11 +8,25 @@ public class SceneLoader : MonoBehaviour
     public float transitionTime;
     private bool buttonClicked = false;
     private string scene;
+    private Scene currentScene;
+    private string currentSceneName;
+
+    void Start()
+    {
+        currentScene = SceneManager.GetActiveScene();
+        currentSceneName = currentScene.name;
+    }
     void Update()
     {
         if(buttonClicked)
         {
-            Load();
+            PreviousScene.OldScene = SceneManager.GetActiveScene().name;
+            if(currentSceneName == "Title") {
+                Load();
+            }
+            else {
+                LoadVariant();
+            }
         }
     }
     public void click(bool clicked)
@@ -30,6 +44,17 @@ public class SceneLoader : MonoBehaviour
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("End");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(scene);
+        
+    }
+    public void LoadVariant()
+    {
+        StartCoroutine(LoadLevelVariant());
+    }
+    IEnumerator LoadLevelVariant()
+    {
+        transition.SetTrigger("End_Variant");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(scene);
         
