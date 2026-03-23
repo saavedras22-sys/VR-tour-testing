@@ -20,7 +20,10 @@ public class SceneLoader : MonoBehaviour
     {
         if(buttonClicked)
         {
-            PreviousScene.OldScene = SceneManager.GetActiveScene().name;
+            if(gameObject.name != "ButtonMainMenu")
+                PreviousScene.OldScene = SceneManager.GetActiveScene().name;
+            else
+                PreviousScene.OldScene = "Title";
             if(currentSceneName == "Title") {
                 Load();
             }
