@@ -1502,23 +1502,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2465015095907671, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -482
+      value: -515
       objectReference: {fileID: 0}
     - target: {fileID: 2465015095907671, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -56
+      value: -54.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1023.075
+      value: 1393.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 109.3
       objectReference: {fileID: 0}
     - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -258
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1151055811030522809, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 484
+      value: -54.649994
       objectReference: {fileID: 0}
     - target: {fileID: 5900564890207223126, guid: 027d49e43b1b73b439021a2b205b9acb, type: 3}
       propertyPath: m_Pivot.x
@@ -2081,6 +2101,10 @@ PrefabInstance:
     - target: {fileID: 1812753358997523350, guid: d0451043d302c754ebc03018a4fc548c, type: 3}
       propertyPath: m_Name
       value: RoomSceneLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812753358997523350, guid: d0451043d302c754ebc03018a4fc548c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7141168249938889388, guid: d0451043d302c754ebc03018a4fc548c, type: 3}
       propertyPath: m_LocalPosition.x
