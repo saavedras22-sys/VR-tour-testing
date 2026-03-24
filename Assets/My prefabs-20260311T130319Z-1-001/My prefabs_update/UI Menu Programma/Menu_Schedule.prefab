@@ -131,6 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5510304086442753887}
+  - component: {fileID: 1210804511136289787}
   m_Layer: 0
   m_Name: Menu_Schedule
   m_TagString: Untagged
@@ -154,6 +155,21 @@ Transform:
   - {fileID: 3134889575898277532}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210804511136289787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821922600720075287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 4
+  scaleY: 4
+  scaleZ: 4
 --- !u!1 &8018450628359781286
 GameObject:
   m_ObjectHideFlags: 0

@@ -1972,6 +1972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0.0015
+  scaleY: 0.0016
+  scaleZ: 0.0015
 --- !u!1001 &5208426584489408400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2255,6 +2258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!1001 &6735747963781705379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3108,6 +3114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!114 &8093919882561631066 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3254218148404682233, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}

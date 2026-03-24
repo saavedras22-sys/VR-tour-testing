@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5544604614355075276}
   - component: {fileID: 8962157720546206831}
-  - component: {fileID: 5994781565903548686}
+  - component: {fileID: 7737101180887193093}
   m_Layer: 0
   m_Name: Menu_Map
   m_TagString: Untagged
@@ -56,7 +56,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5994781565903548686
+--- !u!114 &7737101180887193093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,9 +65,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886452707919268778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91dd0fb992408d44aa73c4bcbc242d42, type: 3}
+  m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 2
+  scaleY: 3
+  scaleZ: 2
 --- !u!1001 &2040713051716909898
 PrefabInstance:
   m_ObjectHideFlags: 0

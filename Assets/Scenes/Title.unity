@@ -154,6 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0.06
+  scaleY: 0.06
+  scaleZ: 0.06
 --- !u!1 &129282888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5722235422253180785, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
@@ -537,6 +540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!114 &523681449 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8222473626907205824, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
@@ -2652,6 +2658,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7737101180887193093, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
+      propertyPath: scaleX
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7737101180887193093, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
+      propertyPath: scaleY
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7737101180887193093, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
+      propertyPath: scaleZ
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8708664883365698835, guid: e24325e46a0d7f743a532f0b41be7a04, type: 3}
       propertyPath: fillImage
       value: 
@@ -2851,6 +2869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!1 &2050803359
 GameObject:
   m_ObjectHideFlags: 0
