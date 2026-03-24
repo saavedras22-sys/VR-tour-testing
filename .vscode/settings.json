@@ -67,5 +67,7 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "VR-tour-testing.slnx"
+    "dotnet.defaultSolution": "VR-tour-testing.slnx",
+    "omnisharp.dotnetPath": "C:/Program Files/Unity/Hub/Editor/6000.3.8f1",
+    "omnisharp.useModernNet": false
 }
