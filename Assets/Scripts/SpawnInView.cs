@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SpawnInView : MonoBehaviour
 {
+    [SerializeField] private UnityEvent OnSpawn;
     public float distance = 2.0f; // Distance from the camera
     private bool positioned = false;
     /*private GameObject mainMenu;
@@ -40,6 +42,7 @@ public class SpawnInView : MonoBehaviour
 
         transform.LookAt(camTransform);
         transform.Rotate(0, 180, 0); // LookAt points at the back of the menu
+        OnSpawn.Invoke();
     }
 
     void Start()
