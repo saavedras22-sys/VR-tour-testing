@@ -1143,9 +1143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
-  scaleX: 0
-  scaleY: 0
-  scaleZ: 0
+  scaleX: 0.006
+  scaleY: 0.003
+  scaleZ: 0.006000001
 --- !u!224 &1756339819 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1675148681373084487, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
@@ -1338,6 +1338,18 @@ PrefabInstance:
     - target: {fileID: 2512913715982722023, guid: 5159272083a22af489d5dface4ad9fd8, type: 3}
       propertyPath: m_Order
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510920615742988162, guid: 5159272083a22af489d5dface4ad9fd8, type: 3}
+      propertyPath: scaleX
+      value: 0.0004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510920615742988162, guid: 5159272083a22af489d5dface4ad9fd8, type: 3}
+      propertyPath: scaleY
+      value: 0.0004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3510920615742988162, guid: 5159272083a22af489d5dface4ad9fd8, type: 3}
+      propertyPath: scaleZ
+      value: 0.0004
       objectReference: {fileID: 0}
     - target: {fileID: 5260056055483482065, guid: 5159272083a22af489d5dface4ad9fd8, type: 3}
       propertyPath: m_Name
