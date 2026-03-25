@@ -1042,6 +1042,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5235b1a28a91e148af22a409ceb5d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuAnimation
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!1 &7927666319652322002
 GameObject:
   m_ObjectHideFlags: 0
