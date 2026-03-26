@@ -409,6 +409,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8890356555096464297, guid: d0451043d302c754ebc03018a4fc548c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 582759280}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1769,6 +1773,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 523681449}
     - target: {fileID: 5153353118693082753, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: fillSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d8a8b4ad7a426f94cb762436eede4525, type: 3}
+    - target: {fileID: 5153353118693082753, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 582759280}
+    - target: {fileID: 5153353118693082753, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
+      propertyPath: requiredHoldTime
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5153353118693082753, guid: 9ff68539a5852bd48ac68aea72e13b1f, type: 3}
       propertyPath: onLongClick.m_PersistentCalls.m_Calls.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -2066,7 +2082,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327f5f883dd4ff24ba4dfe732a95048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
-  requiredHoldTime: 1
+  requiredHoldTime: 0.9
+  audioSource: {fileID: 582759280}
+  fillSound: {fileID: 8300000, guid: d8a8b4ad7a426f94cb762436eede4525, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:
@@ -2331,7 +2349,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327f5f883dd4ff24ba4dfe732a95048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
-  requiredHoldTime: 1
+  requiredHoldTime: 0.9
+  audioSource: {fileID: 582759280}
+  fillSound: {fileID: 8300000, guid: d8a8b4ad7a426f94cb762436eede4525, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:
@@ -3425,7 +3445,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327f5f883dd4ff24ba4dfe732a95048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
-  requiredHoldTime: 1
+  requiredHoldTime: 0.9
+  audioSource: {fileID: 582759280}
+  fillSound: {fileID: 8300000, guid: d8a8b4ad7a426f94cb762436eede4525, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:
@@ -3705,7 +3727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327f5f883dd4ff24ba4dfe732a95048c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
-  requiredHoldTime: 1
+  requiredHoldTime: 0.9
+  audioSource: {fileID: 582759280}
+  fillSound: {fileID: 8300000, guid: d8a8b4ad7a426f94cb762436eede4525, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:

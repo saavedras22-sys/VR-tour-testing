@@ -489,6 +489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8890356555096464297, guid: d0451043d302c754ebc03018a4fc548c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1781566730}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -749,6 +753,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
   requiredHoldTime: 0.6
+  audioSource: {fileID: 1781566730}
+  fillSound: {fileID: 8300000, guid: f10e7ff812627164fa39911459400577, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:
@@ -759,18 +765,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1856982766}
-        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: c6600c5491e54a044b5fa6d406a6e20b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1126,6 +1120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LongClickButton
   requiredHoldTime: 0.6
+  audioSource: {fileID: 1781566730}
+  fillSound: {fileID: 8300000, guid: f10e7ff812627164fa39911459400577, type: 3}
   onLongClick:
     m_PersistentCalls:
       m_Calls:
@@ -1136,18 +1132,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1856982766}
-        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: c6600c5491e54a044b5fa6d406a6e20b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2094,6 +2078,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!82 &1781566730 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4486408696473115466, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
+  m_PrefabInstance: {fileID: 1781566728}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1781566731 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2525253539003197118, guid: 049ccf61617a297418dfe47882bf0465, type: 3}
