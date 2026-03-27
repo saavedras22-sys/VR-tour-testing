@@ -3835,7 +3835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6113530890896363375, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_text
-      value: Gestione rogetto
+      value: Gestione progetto
       objectReference: {fileID: 0}
     - target: {fileID: 6997011449344854826, guid: b87707704e2d52243879723dd39c0e51, type: 3}
       propertyPath: m_Name
